@@ -1,0 +1,15 @@
+<view class="jing">
+   商品列表
+</view>
+<view class="down_box">
+<view class="tui">
+     <view wx:for="{{ down }}" class="tui_inner" bindtap="dianji" data-id="{{ item.id }}">
+     <image src="{{ item.pic }}"></image>
+          <view class="tui_name">{{ item.name }}</view>
+          <view class="tui_price">
+          <text class="new_price">￥{{ item.minPrice }}</text>
+          <text class="old_price">￥{{ item.originalPrice}}</text>
+          </view>
+     </view> 
+</view>
+</view>

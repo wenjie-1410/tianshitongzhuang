@@ -1,0 +1,45 @@
+/* pages/classify/classify.wxss */
+.classify_search{
+  height: 100rpx;
+  width: 100%;
+  padding-top: 30rpx;
+}
+.down{
+  display: flex;
+}
+.right{
+  margin-left: 30rpx;
+
+}
+.dd{
+  display:flex;
+  justify-content: space-between;
+  width: 300rpx;
+}
+.classift_name{
+  font-size: 28rpx;
+  font-weight: blod;
+  white-space:nowrap; 
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  width: 300rpx;
+}
+.class_rigthinner{
+  display: flex;
+  height: 136rpx;
+  width: 514rpx;
+  padding:20rpx 0;
+  border-bottom: 2rpx solid #eee;
+  margin: 0 auto;
+
+}
+.van-sidebar-item{
+  width: 400rpx;
+}
+.classify_search input{
+  height: 65rpx;
+  width: 700rpx;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 20rpx;
+}

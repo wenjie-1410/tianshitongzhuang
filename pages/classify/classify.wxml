@@ -1,0 +1,26 @@
+<!--pages/classify/classify.wxml-->
+<view class="classify_search">
+	<input placeholder="输入搜索的关键字" bindtap="search"></input>
+</view>
+<view class="down">
+<view style="flex:3">
+<van-sidebar active-key="{{ activeKey }}">
+	<scroll-view scroll-y="{{ true }}" style="height:{{ height }}px">
+		<van-sidebar-item wx:for="{{ list }}" title="{{ item.name }}"   bindtap="xiang"  data-id="{{ item.id }}" />
+	</scroll-view>
+</van-sidebar>
+</view>
+
+<view class="right" style="flex:7">
+	<scroll-view scroll-y="{{ true }}" style="height:{{ height }}px">
+      <view wx:for="{{ arr }}" wx:key="{{ index }}" class="class_rigthinner" bindtap="dd" data-id="{{ item.id }}" >
+			<image src="{{ item.pic }}" style="width:148rpx;height:134rpx"></image>
+			<view style="font-size:28rpx;margin-left:30rpx">
+			<view class="classift_name">{{item.name}}</view> 
+			<view class="dd"><text>{{item.minPrice}}</text><image src="/img/shop.png" style="width:47rpx;height:47rpx" catchtap="gou" data-id="{{ item.id }}"><van-toast id="van-toast" /></image></view>
+			<view class="dd"><text>已售{{ item.numberSells }}</text><text>评论+0积分</text></view>
+			</view>
+			</view>
+	</scroll-view>
+</view>
+</view>

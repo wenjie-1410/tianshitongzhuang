@@ -1,0 +1,29 @@
+/* pages/shop/shop.wxss */
+.shop_conn{
+  width: 95%;
+  display: flex;
+  padding: 20rpx 0rpx;
+  border-bottom: #ccc solid 2rpx;
+  margin: 0 auto;
+}
+.shop_box{
+     flex: 5;
+     margin-left: 20rpx;
+}
+.shop_inner{
+  display: flex;
+  justify-content: space-between;
+}
+.shop_name{
+  font-size: 28rpx;
+  font-weight: blod;
+  white-space:nowrap; 
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  width: 430rpx;
+}
+.zong{
+  position: absolute;
+  left: 50rpx;
+  bottom: 20rpx;
+}

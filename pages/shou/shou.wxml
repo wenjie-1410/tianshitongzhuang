@@ -1,0 +1,12 @@
+<!--pages/shou/shou.wxml-->
+<view class="fa">
+<view class="shou_list">
+<view wx:for="{{ list }}" class="shou_inner">
+<image src="{{ item.pic }}" style="width:100%"></image>
+<view class="shou_name">{{ item.goodsName }}</view>
+<image src="../../img/shanchu.png" class="hh" catchtap="del"data-id="{{ item.goodsId }}"></image>
+</view>
+</view>
+</view>
+
+

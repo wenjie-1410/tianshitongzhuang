@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<scroll-view                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+scroll-y="{{ true }}"
+style="height:{{ height }}px"
+bindscrolltolower="down"
+>
+<view class="header">
+<lun swiper="{{ swiper }}"></lun>
+<view class="search">
+   <input placeholder="输入搜索关键字" bindtap="search"> </input>
+</view>
+</view>
+<!-- 更多 -->
+<view class="mang">
+ <image src="/img/guangbo.png" class="guangbo">   </image>
+    <view>
+    商城新开张，优惠多多，戳我看看更多详情。
+    </view>
+      <text>更多<image src="/img/jian.png"></image></text>
+</view>
+<!-- nav -->
+<view class="nav">
+       <view wx:for="{{ nav }}" class="nav_inner">
+       <image src="{{ item.icon }}" class="nav_icon"></image>
+            <view class="nav_title">{{ item.name }}</view>
+       </view>
+</view>
+<!-- 精品推荐 -->
+<view class="jing">
+   精品推荐
+</view>
+<view class="tui">
+     <view wx:for="{{ list }}" class="tui_inner" bindtap="dianji" data-id="{{ item.id }}" >
+     <image src="{{ item.pic }}"></image>
+          <view class="tui_name">{{ item.name }}</view>
+          <view class="tui_price">
+          <text class="new_price">￥{{ item.minPrice }}</text>
+          <text class="old_price">￥{{ item.originalPrice}}</text>
+          </view>
+     </view> 
+</view>
+<bargain bargain="{{ bargain }}"></bargain>
+<grop grop="{{ grop }}"></grop>
+<down down="{{ down }}"></down>
+</scroll-view>

@@ -1,0 +1,122 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body,html,view,text{
+  margin: 0;
+  padding:0;
+}
+.mang{
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90rpx;
+  border-bottom: 1px solid #eee;
+}
+.nav_inner{
+  width: 20%;
+}
+.header{
+    position: relative;
+}
+.search input{
+  width: 80%;
+  border: 1px solid #ccc;
+  height: 60rpx;
+  background: rgba(255,255,255,0.5);
+  border-radius: 50rpx;
+ padding-left: 40rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+ margin-top: 40rpx;
+}
+.search{
+  width: 100%;
+  height: 130rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index:3;
+}
+.tui_name{
+  margin-left: 23rpx;
+}
+.tui_price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37rpx;
+}
+.tui{
+  font-size: 24rpx;
+  height: 540rpx;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+}
+.new_price{
+  margin-left: 23rpx;
+  color: red;
+}
+.old_price{
+  margin-right: 60rpx;
+  text-decoration: line-through;
+}
+.tui_inner{
+ width:340rpx ;
+ height: 490rpx;
+ background-color: #fff;
+  margin-top:27rpx;
+
+}
+.tui image{
+  width: 339rpx;
+  height: 337rpx;
+  margin-bottom: 28rpx;
+}
+.jing{
+  font-size: 28rpx;
+  color: #ccc;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.nav_title{
+  font-size: 27rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.nav_icon{
+  width: 73rpx;
+  height: 73rpx;
+  display: block;
+  margin: 0 auto;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.guangbo{
+  width: 40rpx;
+  height: 40rpx;
+}
+swiper-item image{
+  height: 378rpx;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

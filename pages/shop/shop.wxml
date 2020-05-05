@@ -1,0 +1,25 @@
+<!--pages/shop/shop.wxml-->
+<view class="shop_conn" wx:for="{{ list }}">
+	<image src="{{ item.pic }}" style="width:147rpx;height:147rpx;flex:2" ></image>
+	<view class="shop_box">
+		<view class="shop_name">{{ item.name }}</view>
+    <view class="shop_inner">
+   <text>{{ item.price }}</text> 
+  <image src="../../img/shanchu.png" style="width:70rpx;height:50rpx" catchtap="del" data-index="{{ item.key}}"></image>
+    </view>
+    <view>
+    <van-stepper value="{{ item.number }}" bind:change="onChange" data-id="{{ item.key}}"/>
+    </view>
+   
+	</view>
+</view>
+
+<van-submit-bar
+  button-text="提交订单"
+  bind:submit="onSubmit"
+>
+<view class="zong">总价:{{ price }}
+
+
+</view>
+</van-submit-bar>

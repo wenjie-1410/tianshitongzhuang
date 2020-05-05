@@ -1,0 +1,129 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine_header">
+   <image src="{{ pic.avatarUrl }}"></image>
+    <view>{{ pic.nickName }}</view>
+</view>
+<view class="mine_two">
+<view>
+<text>0</text>
+<text>余额</text>
+</view>
+<view>
+<text>0</text>
+<text>余额</text>
+</view>
+<view>
+<text>0</text>
+<text>余额</text>
+</view>
+<view>
+<text>0</text>
+<text>余额</text>
+</view>
+</view>
+<view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="mine_three">
+   <view>
+   <image src="/img/daifukuan.png"></image>
+  <text>代付款</text>
+   </view>
+    <view>
+   <image src="/img/daifukuan.png"></image>
+  <text>代发货</text>
+   </view>
+    <view>
+   <image src="/img/daifukuan.png"></image>
+  <text>代收货</text>
+   </view>
+    <view>
+   <image src="/img/daifukuan.png"></image>
+  <text>代评价</text>
+   </view>
+    <view>
+   <image src="/img/daifukuan.png"></image>
+  <text>售后</text>
+   </view>
+</view>
+</view>
+<!--public/components/tuan/tuan.wxml-->
+<view class="dan">
+<text>优惠买单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>资金明细</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>成为分销商</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>申请发票</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>发票记录</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>收货地址</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>领卷中心</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan" catchtap="shou">
+<text>我的收藏</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>每日签到</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>积分卷兑换积分</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>积分卷兑换成长值</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>关于我们</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>绑定手机</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>清除缓存</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>退出登录</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+

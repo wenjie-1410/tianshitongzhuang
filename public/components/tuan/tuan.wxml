@@ -1,0 +1,77 @@
+<!--public/components/tuan/tuan.wxml-->
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+<view class="dan">
+<text>我的订单</text>
+<text class="inner"></text>
+<image src="/img/fff.png" class="fff"></image>
+</view>
+

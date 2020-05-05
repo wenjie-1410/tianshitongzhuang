@@ -1,0 +1,6 @@
+/* pages/search/search.wxss */
+.search_input{
+     width: 80%;
+     height: 50rpx;
+     border: 1px solid #000;
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+      "lun":"/public/components/swiper/swiper",
+      "bargain":"/public/components/bargain/bargain"
+      ,"grop":"/public/components/grop/grop",
+      "down":"/public/components/list/list"
+  },
+  "navigationBarTitleText": "天使童装"
+}

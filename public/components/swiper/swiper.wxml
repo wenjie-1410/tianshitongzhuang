@@ -1,0 +1,9 @@
+<!--public/swiper/swiper.wxml-->
+<swiper
+autoplay="{{ true }}"
+indicator-dots="{{ true }}"
+indicator-active-color="#999"
+indicator-color="#eee"
+>
+	<swiper-item wx:for="{{ swiper }}"><image src="{{ item.picUrl }}"></image></swiper-item>
+</swiper>

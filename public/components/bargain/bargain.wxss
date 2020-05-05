@@ -1,0 +1,60 @@
+/* public/components/bargain/bargain.wxss */
+.bargain{
+  width: 100%;
+  height: 390rpx;
+  border-bottom: 10rpx solid #eee;
+}
+.feng{
+  display: flex;
+  font-size: 27rpx;
+  justify-content: space-between;
+  margin-top: 10rpx;
+  
+}
+.bargain-two{
+  display: flex;
+  margin-left: 6%;
+  align-items: center;
+  height: 253rpx;
+   border-bottom: 17rpx solid #eee;
+   border-radius: 10rpx;
+   width: 679rpx;
+}
+.kan{
+  width: 131rpx;
+  height: 63rpx;
+  background-color: red;
+  color:#fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 63rpx;
+  border-radius: 20rpx;
+}
+.bargain_chara{
+  font-size: 28rpx;
+margin-top: 10rpx;
+}
+.bargain-inner{
+  width:488rpx;
+  margin-left: 50rpx;
+
+}
+.bargain-name{
+  white-space:nowrap; 
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  font-size:37rpx;
+  font-weight: bold;
+}
+.bargain-img{
+  width: 134rpx;
+  height: 137rpx;
+  margin-top: 10rpx;
+}
+.bargain-one{
+  height: 110rpx;
+  border-bottom: 4rpx solid #eee;
+width: 94%;
+margin-left: 6%;
+line-height: 110rpx;
+}

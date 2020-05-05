@@ -1,0 +1,60 @@
+/* public/components/grop/grop.wxss */
+.feng{
+  display: flex;
+  font-size: 27rpx;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.grop_chara{
+  font-size: 26rpx;
+  color: #ccc;
+}
+.grop_name{
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.grop_header{
+height: 108rpx;
+background: #fff;
+text-align: center;
+line-height: 108rpx;
+width: 100%;
+font-size: 28rpx;
+color:#cccccc;
+
+}
+.grop_inner{
+  width: 720rpx;
+  margin: 2% auto;
+   background: #fff;
+   padding:0rpx 20rpx;
+   height: 420rpx;
+   position: relative;
+}
+.grop_img{
+  width: 100%;
+  height: 215rpx;
+}
+.grop{
+  padding: 25rpx 0rpx;
+  width: 100%;
+  height:550rpx;
+  background: #eee;
+}
+image{
+  width: 720rpx;
+  height: 250rpx;
+}
+.kan{
+  width: 131rpx;
+  height: 63rpx;
+  background-color: red;
+  color:#fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 63rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 30rpx;
+  right: 40rpx;
+}

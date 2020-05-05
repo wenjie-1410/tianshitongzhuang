@@ -1,0 +1,19 @@
+<!--public/components/grop/grop.wxml-->
+<view class="grop">
+<view class="grop_header">
+     全民拼团
+</view>
+<view wx:for="{{ grop }}" class="grop_inner">
+   <image src="{{ item.pic }}" class="grop_img"></image>
+   <view class="grop_name">{{ item.name }}</view>
+   <view class="grop_chara">{{ item.characteristic }}</view>
+     <view class="feng">
+                <view>
+                   <text> 原价:{{ item.originalPrice }} </text>
+                   <text style="color:red;">   低价:{{ item.kanjiaPrice }}  </text>       
+                </view>
+                <text class="kan" bindtap="pin" data-id="{{ item.id }}">拼团</text>
+                </view>
+</view>
+</view>
+

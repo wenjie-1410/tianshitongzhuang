@@ -1,0 +1,34 @@
+/* pages/connect/connect.wxss */
+.connect_image1{
+  width: 100%;
+  height: 780rpx;
+}
+.connect_inner{
+  font-size: 28rpx;
+  display: flex;
+   justify-content: space-around;
+   border-bottom: 30rpx solid #eee;
+   padding-bottom: 10rpx;
+   margin-top: 10rpx;
+}
+.connect_inner image{
+  width: 57rpx;
+  height: 57rpx;
+}
+.connect_two{
+  width: 100%;
+  height: 111rpx;
+  border-bottom: 30rpx solid #eee;
+  line-height: 111rpx;
+}
+.jie{
+  height: 105rpx;
+  line-height: 105rpx;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+.connect_two text{
+  margin-left: 30rpx;
+  font-size: 28rpx;
+
+}

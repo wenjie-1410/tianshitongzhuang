@@ -1,0 +1,46 @@
+<!--pages/connect/connect.wxml-->
+<import src="/wxParse/wxParse.wxml" />
+<view>
+ <image src="{{ list.pic }}" class="connect_image1"></image>
+ <view style="font-size:28rpx;margin-left:30rpx">{{ list.name }}</view>
+ <view style="color:red;font-size:28rpx;margin-left:30rpx">分享有赏，还有下单后可获得0.01元 现金奖励</view>
+ <view  class="connect_inner">
+    <text style="color:red;margin-left:10rpx">￥<text style="color:red;font-size:34rpx;font-weight:blod">{{ list.minPrice }}</text></text>
+    <text>￥{{ list.originalPrice }}</text>
+    <text>{{ list.numberSells }}人已买</text>
+    <view style="width:185rpx"></view>
+      <image src="/img/zhuanfa.png"></image>
+      <image src="/img/lianjie.png"></image>
+ </view>
+ <view class="connect_two">
+     <text>选择：网络类型，新订单提示 ，切制方式</text>
+ </view>
+ <view>
+     <view class="jie">商品介绍</view>
+<template is="wxParse" data="{{wxParseData:lwj.nodes}}"></template>
+ </view>
+</view>
+<van-goods-action>
+  <van-goods-action-icon
+    icon="star-o"
+    text="收藏"
+    catch:click="onClickIcon"
+    data-id="{{ list.id }}"
+  />
+  <van-goods-action-icon
+    icon="cart-o"
+    text="购物车"
+    bind:click="on"
+  />
+  <van-goods-action-button
+    text="加入购物车"
+    type="warning"
+    bind:click="onClickButton"
+     bindtap="jia" data-id="{{ list.id }}" 
+  ><van-toast id="van-toast" />
+  </van-goods-action-button>
+  <van-goods-action-button
+    text="立即购买"
+    bind:click="onClickButton"
+  />
+</van-goods-action>
